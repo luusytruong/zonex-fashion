@@ -13,21 +13,212 @@
 </head>
 
 <body>
-    <header>
-
+    <header class="header">
+        <div class="header__wrapper">
+            <div class="header__search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <nav class="header__nav">
+                <ul class="header__nav__list">
+                    <li class="header__nav__item active">
+                        <a href="#" class="header__nav__link">
+                            Home
+                        </a>
+                    </li>
+                    <li class="header__nav__item">
+                        <a href="#" class="header__nav__link">
+                            Shop
+                        </a>
+                    </li>
+                    <li class="header__nav__item">
+                        <a href="#" class="header__nav__link">
+                            Elements
+                        </a>
+                    </li>
+                    <li class="header__nav__item">
+                        <a href="#" class="header__nav__link">
+                            <img src="./assets/images/logo/logo zonex.png" alt="logo zonex">
+                        </a>
+                    </li>
+                    <li class="header__nav__item">
+                        <a href="#" class="header__nav__link">
+                            Blog
+                        </a>
+                    </li>
+                    <li class="header__nav__item">
+                        <a href="#" class="header__nav__link">
+                            Page
+                        </a>
+                    </li>
+                    <li class="header__nav__item">
+                        <a href="#" class="header__nav__link">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header__cart">
+                <i class="fa-regular fa-basket-shopping-simple"></i>
+                <div class="header__cart__count">3</div>
+            </div>
+        </div>
     </header>
     <main>
-        <section>
-            
+        <section class="slider">
+            <div class="slider__wrapper">
+                <ul class="slider__list" id="slider-container">
+                    <li class="slider__item">
+                        <img src="./assets/images/banner/banner.png" alt="banner2">
+                        <div class="slider__item__content">
+                            <p class="item__content__subtitle">
+                                Summertime
+                            </p>
+                            <h2 class="item__content__title">
+                                Women's
+                                <br>
+                                Mid-Seasion
+                            </h2>
+                            <button class="btn item__content__btn">
+                                SEEMORE
+                            </button>
+                        </div>
+                    </li>
+                    <li class="slider__item">
+                        <img src="./assets/images/banner/banner_2.png" alt="banner2">
+                        <div class="slider__item__content">
+                            <p class="item__content__subtitle">
+                                Summertime
+                            </p>
+                            <h2 class="item__content__title">
+                                Women's
+                                <br>
+                                Mid-Seasion
+                            </h2>
+                            <button class="btn item__content__btn">
+                                SEEMORE
+                            </button>
+                        </div>
+                    </li>
+                    <li class="slider__item">
+                        <img src="./assets/images/banner/banner.png" alt="banner2">
+                        <div class="slider__item__content">
+                            <p class="item__content__subtitle">
+                                Summertime
+                            </p>
+                            <h2 class="item__content__title">
+                                Women's
+                                <br>
+                                Mid-Seasion
+                            </h2>
+                            <button class="btn item__content__btn">
+                                SEEMORE
+                            </button>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="slider__dots__list">
+                    <li class="slider__dot__item active"></li>
+                    <li class="slider__dot__item"></li>
+                    <li class="slider__dot__item"></li>
+                </ul>
+            </div>
+        </section>
+        <section class="collection">
+            <div class="collection__wrapper">
+                <div class="collection__head">
+                    <ul class="collection__achievenment__list">
+                        <li class="collection__achievenment__item">
+                            <img src="./assets/images/icons/world_icon.png" alt="wolrd">
+                            <p class="collection__achievenment__content">
+                                <strong>WORLDWIDE SHIPPING</strong>
+                                <span>Special financing and earn rewards.</span>
+                            </p>
+                        </li>
+                        <li class="collection__achievenment__item">
+                            <img src="./assets/images/icons/dollar_icon.png" alt="wolrd">
+                            <p class="collection__achievenment__content">
+                                <strong>30 DAYS GUARANTEE</strong>
+                                <span>Special financing and earn rewards.</span>
+                            </p>
+                        </li>
+                        <li class="collection__achievenment__item">
+                            <img src="./assets/images/icons/bag_icon.png" alt="wolrd">
+                            <p class="collection__achievenment__content">
+                                <strong>SECURED PAYMENTS</strong>
+                                <span>Special financing and earn rewards.</span>
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="collection__body">
+                    <div class="collection__col">
+                        <div class="collection__item">
+                            <img src="./assets/images/collection/collection_1.png" alt="collection1">
+                            <div class="collection__item__content">
+                                <p class="collection__item__subtitle">
+                                    KID'S FASHION
+                                </p>
+                                <h2 class="colletion__item__title">
+                                    Mum's pick collection
+                                </h2>
+                                <button class="btn collection__item__btn active">
+                                    Shop now
+                                </button>
+                            </div>
+                        </div>
+                        <div class="collection__item">
+                            <img src="./assets/images/collection/collection_3.png" alt="collection1">
+                            <div class="collection__item__content">
+                                <p class="collection__item__subtitle">
+                                    KID'S FASHION
+                                </p>
+                                <h2 class="colletion__item__title">
+                                    Mum's pick collection
+                                </h2>
+                                <button class="btn collection__item__btn">
+                                    Shop now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="collection__col collection__col--order-2">
+                        <div class="collection__item ">
+                            <img src="./assets/images/collection/collection_2.png" alt="collection1">
+                            <div class="collection__item__content">
+                                <p class="collection__item__subtitle">
+                                    KID'S FASHION
+                                </p>
+                                <h2 class="colletion__item__title">
+                                    Mum's pick collection
+                                </h2>
+                                <button class="btn collection__item__btn">
+                                    Shop now
+                                </button>
+                            </div>
+                        </div>
+                        <div class="collection__item">
+                            <img src="./assets/images/collection/collection_4.png" alt="collection1">
+                            <div class="collection__item__content">
+                                <p class="collection__item__subtitle">
+                                    KID'S FASHION
+                                </p>
+                                <h2 class="colletion__item__title">
+                                    Mum's pick collection
+                                </h2>
+                                <button class="btn collection__item__btn">
+                                    Shop now
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
         <section>
-            
+
         </section>
         <section>
-            
-        </section>
-        <section>
-            
+
         </section>
     </main>
     <footer>
