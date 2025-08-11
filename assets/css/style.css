@@ -20,8 +20,8 @@ button {
 }
 
 
-/* products__list
-.products__list{
+/* products__list */
+/* .products__list{
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
