@@ -1,0 +1,141 @@
+/* quyen */
+
+.footer {
+    display: flex;
+    background-color: #151515;
+    color: #fff;
+}
+
+.footer__wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 1358px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.footer_top {
+    display: flex;
+    padding-bottom: 95px;
+}
+
+.footer__cols {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footer__cols:nth-child(1),
+.footer__cols:nth-child(2) {
+    flex: 3;
+}
+
+
+.footer__cols:nth-child(3) {
+    flex: 6;
+}
+
+.footer__title {
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.footer__cols__join,
+.footer__list {
+
+    margin-top: 32px;
+}
+
+.footer__cols__join,
+.footer__items a {
+    font-size: 13px;
+    color: #858585;
+    font-weight: 500;
+}
+
+.footer__form {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #858585;
+    margin-top: 38px;
+}
+
+.footer__form__input {
+    background-color: transparent;
+}
+
+.footer__form__btn {
+    background-color: unset;
+    font-size: 13px;
+    color: #858585;
+    font-weight: 500;
+    padding: 0 13px;
+}
+
+.footer__notifi {
+    font-size: 13px;
+    color: #858585;
+    font-weight: 500;
+    margin-top: 22px;
+}
+
+
+/* footer_bottom */
+.footer__center {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #2d2d2d;
+    padding: 38px 0;
+}
+
+.footer__center__social {
+    display: flex;
+    gap: 19px;
+    color: #858585;
+}
+
+.footer__items {
+    transition: all .2s ease-in-out;
+}
+
+.footer__items:hover {
+    opacity: 0.8;
+    transform: translateX(4px);
+}
+
+.footer_bottom__nav a {
+    font-size: 13px;
+    color: #858585;
+    font-weight: 700;
+    font-family: "Jost";
+}
+
+
+
+/* footer__copyright */
+.footer__bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 17px;
+    padding-top: 18px;
+}
+
+.footer__bottom__copy {
+    font-size: 13px;
+    color: #858585;
+    font-weight: 500;
+}
+
+.footer__bottom__pay {
+    object-fit: contain;
+}
+
+
+@media (max-width: 1358px) {
+    .footer__wrapper {
+        margin: 0 15px;
+    }
+}
