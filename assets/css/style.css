@@ -12,3 +12,26 @@
 button {
   cursor: pointer;
 }
+
+
+/* footer */
+.footer{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__cols{
+   display: flex;
+  flex-direction: column;
+}
+
+
+.footer__cols:nth-child(1),
+.footer__cols:nth-child(2){
+  flex: 3;
+}
+
+
+.footer__cols:nth-child(3){
+  flex: 6;
+}
