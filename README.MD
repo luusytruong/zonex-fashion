@@ -7,7 +7,7 @@
 ## 📋 Project Information
 
 - **Project Name**: Zonex Fashion Website
-- **Team**: Dev Vibe
+- **Team**: Dev Vibe - me and [Ngo Gia Quyen](https://github.com/ngogiaquyen)
 - **Development Time**: 90 minutes
 - **Result**: 🏆 First Place
 - **Competition**: PSD2WEB Challenge 2025
