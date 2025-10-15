@@ -1,6 +1,6 @@
 # 🏆 PSD2WEB Challenge 2025 - Team Dev Vibe
 
-## 🥇 First Place Winner - FPT Polytechnic Thai Nguyen
+## [🥇 First Place Winner - FPT Polytechnic Thai Nguyen](https://baothainguyen.vn/giao-duc/202508/truong-dai-hoc-cong-nghe-thong-tin-va-truyen-thong-thai-nguyen-doat-giai-nhat-cuoc-thi-lap-trinh-web-867231e/)
 
 **Zonex Fashion Website** developed by **Team Dev Vibe** for the PSD2WEB Challenge organized by FPT Polytechnic Thai Nguyen. Completed in just **90 minutes** and won **🏆 First Place**.
 
